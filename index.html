@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/aventi" rel="stylesheet">
+                
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Odyssey</h1>
+        <div class="login">
+            <img src="https://i.pinimg.com/564x/23/69/c5/2369c5442fa3de20744280369e9eecfe.jpg" alt="">
+            <p>Login/Sign Up</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>about us</li>
+            <li>destinations</li>
+            <li>tours & packages</li>
+            <li>special offers</li>
+        </ul>
+    </nav>
+    <section itemscope itemtype="https://schema.org/Hotel" class="hotels">
+        <div class="hotel">
+            <img itemprop="photo" src="https://i.pinimg.com/564x/14/53/68/1453687d71678393ad7461cb7e0eb45b.jpg" alt="Grand Hotel Tremezzo">
+            <h2 itemprop="name">Grand Hotel Tremezzo</h2>
+            <p itemprop="description"></p>
+            <div class="adress" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <p itemprop="addressCountry">Italy</p>
+                <p itemprop="addressLocality">,  Lake Como</p>
+            </div>
+        </div>
+
+        <div class="hotel">
+            <img itemprop="photo" src="https://i.pinimg.com/564x/db/30/75/db3075075ee618afb2f145eb41372c4b.jpg" alt="Amangani">
+            <h2 itemprop="name">Amangani</h2>
+            <p itemprop="description"></p>
+            <div class="adress" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <p itemprop="addressCountry">USA</p>
+                <p itemprop="addressLocality">,  Jackson WY</p>
+            </div>
+        </div>
+        <div class="hotel">
+            <img itemprop="photo" src="https://i.pinimg.com/564x/fc/e2/e3/fce2e3eb8ce923e1a284532ebffe3ee8.jpg" alt="SIGNIEL SEOUL">
+            <h2 itemprop="name">SIGNIEL SEOUL</h2>
+            <p itemprop="description"></p>
+            <div class="adress" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <p itemprop="addressCountry">South Korea</p>
+                <p itemprop="addressLocality">,  Seoul</p>
+            </div>
+        </div>
+        <div class="hotel">
+            <img itemprop="photo" src="https://i.pinimg.com/564x/7e/a6/07/7ea6071d9cb26b4686f57ca19d4d6b95.jpg" alt="Park Hyatt Sydney">
+            <h2 itemprop="name">Park Hyatt Sydney</h2>
+            <p itemprop="description"></p>
+            <div class="adress" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <p itemprop="addressCountry">Australia</p>
+                <p itemprop="addressLocality">,  Sydney</p>
+            </div>
+        </div>
+    </section>
+    <div id="map-container" style="margin-top: 20px; display: none;"></div>
+    <footer>
+        <div class="contact">
+            <p>email: odyssey@gmail.com</p>
+            <p>phone: +3801111111111</p>
+
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d114868.11297058105!2d30.47752740000782!3d50.49229213700338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d10063f3c213%3A0x65e7c11ee170698f!2z0J_RgNC-0LrQsNGCIFNVUCBCT0FSRA!5e0!3m2!1sru!2sua!4v1719837128036!5m2!1sru!2sua" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

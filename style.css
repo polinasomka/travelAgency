@@ -1,0 +1,83 @@
+body{
+    font-family: 'Aventi', sans-serif;
+    background-color: #70ae6e;
+    color: #beee62;
+    cursor: pointer;
+    display: grid;
+    grid-template-areas: "header header header"
+                        "nav hotels map"
+                        "footer footer footer"    ;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: " . h1 login";
+    grid-area: header;
+}
+
+header div{
+    text-align: right;
+    grid-area: login;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+header div img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    grid-area: h1;
+    
+} 
+
+header p:hover, nav li:hover{
+    color: #f4743b;
+    cursor: pointer;
+}
+
+nav{
+    grid-area: nav;
+}
+
+nav li{
+    font-size: 20px;
+    margin-top: 30px;
+    list-style-type: none
+}
+
+.hotels{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-area: hotels;
+    gap:30px;
+}
+
+.hotels img{
+    width: 250px;
+    height: 250px;
+}
+
+.hotels .adress{
+    display: flex;
+}
+
+.hotels p{
+    margin: 0px;
+}
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3c6e71;
+    padding-top: 50px;
+    margin-top: 50px;
+}
